@@ -1,0 +1,73 @@
+/* custom-scrollbar.css */
+
+.scrollbar-container::-webkit-scrollbar {
+   width: 4px;
+   /* width of the scrollbar */
+}
+
+.scrollbar-container::-webkit-scrollbar-thumb {
+   background-color: #fff;
+   /* color of the scrollbar thumb */
+   border-radius: 4px;
+   /* round corners */
+}
+
+.scrollbar-container::-webkit-scrollbar-track {
+   background-color: #242124;
+   /* color of the scrollbar track */
+   border-radius: 4px;
+   /* round corners */
+}
+
+/* Add smooth scrolling behavior */
+.scrollbar-container {
+   scroll-behavior: smooth;
+}
+
+.scrollbar-container1::-webkit-scrollbar {
+   width: 6px;
+   /* width of the scrollbar */
+}
+
+.scrollbar-container1::-webkit-scrollbar-thumb {
+   background-color: #fff;
+   /* color of the scrollbar thumb */
+}
+
+.scrollbar-container1::-webkit-scrollbar-track {
+   background-color: #242124;
+   /* color of the scrollbar track */
+}
+
+/* Add smooth scrolling behavior */
+.scrollbar-container1 {
+   scroll-behavior: smooth;
+}
+
+
+.loading-animation {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   font-size: 18px;
+   color: #888;
+}
+
+::-webkit-scrollbar {
+   width: 2px;
+   /* Width of the scrollbar */
+}
+
+/* Track styles (the background of the scrollbar) */
+::-webkit-scrollbar-track {
+   background: #333333;
+   /* Background color of the track */
+}
+
+/* Thumb styles (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+   background: #D3D3D3;
+   /* Color of the thumb */
+}
+

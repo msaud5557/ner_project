@@ -1,0 +1,10 @@
+.MuiSelect-icon {
+    color: white; /* White color for the select icon */
+  }
+  
+
+  .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border-color: grey; /* Set border color to white */
+  }
+
+  

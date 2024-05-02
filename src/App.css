@@ -1,0 +1,19 @@
+.app-container {
+    position: relative;
+  }
+  
+  .floating-icon {
+    position: fixed;
+    background-color: rgba(40, 35, 29, 0.7);
+    border: 1px groove #333333;
+    backdrop-filter: blur(3px);
+    top: 65px;
+    display: flex;
+    justify-content: left;
+    border-radius: 0 25px 25px 0;
+    padding: 0 4px 0 20px;
+    left: 0;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
